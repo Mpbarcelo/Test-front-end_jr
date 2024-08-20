@@ -209,3 +209,94 @@ section.sobre .flex{
 .rodape-itens {
   text-align: center;
 }
+
+/* Media Queries para responsividade */
+@media (max-width: 1200px) {
+  section.topo-do-site .flex {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+  .topo-do-site .img-topo-site img {
+    width: 350px;
+    height: 350px;
+  }
+  
+}
+
+@media (max-width: 992px) {
+  .interface h1 {
+    font-size: 2rem;
+  }
+  section.curiosidades .flex {
+    flex-direction: column;
+  }
+  .curiosidades .curiosidades-box {
+    margin-top: 2rem;
+  }
+  section.sobre .flex {
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centraliza o texto em telas menores */
+  }
+  .img-sobre img {
+    width: 250px;
+    height: 350px;
+  }
+ 
+}
+
+@media (max-width: 768px) {
+  .topo-do-site h1 {
+    font-size: 36px;
+  }
+  .topo-do-site h1 span {
+    font-size: 70px;
+  }
+  .btn-contato button {
+    padding: 8px 30px;
+    font-size: 16px;
+  }
+  .sobre .txt-sobre h2 {
+    font-size: 2rem;
+  }
+  .sobre .txt-sobre p {
+    font-size: 0.875rem;
+  }
+  .btn-social button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  section.sobre {
+    padding: 3rem 2%;
+  }
+  .topo-do-site .txt-topo-site p {
+    font-size: 0.875rem;
+  }
+  .curiosidades .curiosidades-box h3 {
+    font-size: 1.5rem;
+  }
+  .curiosidades .curiosidades-box p {
+    font-size: 0.875rem;
+  }
+  .topo-do-site h1 {
+    font-size: 30px;
+  }
+  .topo-do-site h1 span {
+    font-size: 60px;
+  }
+  .img-sobre img {
+    width: 200px;
+    height: 300px;
+  }
+  .sobre .txt-sobre h2 {
+    font-size: 1.75rem;
+  }
+  .sobre .txt-sobre p {
+    font-size: 0.75rem;
+  }
+}
