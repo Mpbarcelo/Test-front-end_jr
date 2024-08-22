@@ -155,7 +155,7 @@ section.sobre {
   padding: 5rem 4%;
   box-shadow: 0 0 2.5rem 0.625rem #ffffff1d;
 }
-section.sobre .flex{
+section.sobre .flex {
   align-items: center;
   gap: 3.75rem;
 }
@@ -166,24 +166,24 @@ section.sobre .flex{
   object-fit: cover;
   box-shadow: 0 0 0.5rem var(--red-color);
 }
-.sobre .txt-sobre{
+.sobre .txt-sobre {
   color: var(--white-color);
 }
-.sobre .txt-sobre h2{
+.sobre .txt-sobre h2 {
   text-transform: uppercase;
   font-size: 2.5rem;
   line-height: 2.4rem;
   margin-bottom: 1.875rem;
 }
-.sobre .txt-sobre h2 span{
+.sobre .txt-sobre h2 span {
   color: var(--red-color);
   display: block;
 }
-.sobre .txt-sobre p{
+.sobre .txt-sobre p {
   margin: 1.25rem 0;
   text-align: justify;
 }
-.sobre .txt-sobre .btn-social button{
+.sobre .txt-sobre .btn-social button {
   width: 3.75rem;
   height: 3.75rem;
   border-radius: 50%;
@@ -192,7 +192,7 @@ section.sobre .flex{
   font-size: 1.5625rem;
   cursor: pointer;
   margin: 0 0.3125rem;
-  transform: .2s;
+  transform: 0.2s;
 }
 /* Estilo do footer */
 .rodape {
@@ -201,9 +201,9 @@ section.sobre .flex{
 }
 
 .rodape a {
-  color: var(--red-color)
+  color: var(--red-color);
 }
-.rodape h4{
+.rodape h4 {
   color: var(--white-color);
 }
 .rodape-itens {
@@ -221,12 +221,11 @@ section.sobre .flex{
     width: 350px;
     height: 350px;
   }
-  
 }
 
 @media (max-width: 992px) {
   .interface h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   section.curiosidades .flex {
     flex-direction: column;
@@ -243,12 +242,11 @@ section.sobre .flex{
     width: 250px;
     height: 350px;
   }
- 
 }
 
 @media (max-width: 768px) {
   .topo-do-site h1 {
-    font-size: 36px;
+    font-size: 1.5rem;
   }
   .topo-do-site h1 span {
     font-size: 70px;
@@ -261,6 +259,7 @@ section.sobre .flex{
     font-size: 2rem;
   }
   .sobre .txt-sobre p {
+    padding: 20px;
     font-size: 0.875rem;
   }
   .btn-social button {
@@ -284,7 +283,8 @@ section.sobre .flex{
     font-size: 0.875rem;
   }
   .topo-do-site h1 {
-    font-size: 30px;
+    font-size: 18px;
+    padding: 20px;
   }
   .topo-do-site h1 span {
     font-size: 60px;
